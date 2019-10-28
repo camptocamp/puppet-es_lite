@@ -5,4 +5,6 @@
 # @example
 #   include es_lite::install
 class es_lite::install {
+  Exec{path => '/bin'} # Ugly hack
+  contain ::podman
 }
