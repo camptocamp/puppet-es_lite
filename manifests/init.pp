@@ -5,4 +5,7 @@
 # @example
 #   include es_lite
 class es_lite {
+  class { '::es_lite::install': }
+  -> class { '::es_lite::config': }
+  ~> class { '::es_lite::service': }
 }
