@@ -5,6 +5,10 @@ describe 'es_lite::config' do
     context "on #{os}" do
       let(:facts) { os_facts }
 
+      let :pre_condition do
+        "class { 'es_lite': }"
+      end
+
       it { is_expected.to compile }
     end
   end
