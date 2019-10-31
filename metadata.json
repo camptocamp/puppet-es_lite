@@ -2,9 +2,10 @@
   "name": "camptocamp-es_lite",
   "version": "0.1.0",
   "author": "Camptocamp",
-  "summary": "",
+  "summary": "Deploy an ElasticSearch cluster in a simple way",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/camptocamp/puppet-es_lite",
+  "issues_url": "https://github.com/camptocamp/puppet-es_lite/issues",
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
