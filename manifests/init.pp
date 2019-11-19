@@ -14,9 +14,9 @@ class es_lite(
   class { '::es_lite::install': }
 
   $notify = $es_lite::manage_service ? {
-      true  => Class['::es_lite::service'],
-      false => undef,
-    }
+    true  => Class['::es_lite::service'],
+    false => undef,
+  }
   class { '::es_lite::config':
     require => Class['::es_lite::install'],
     notify  => $notify,
