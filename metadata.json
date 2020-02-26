@@ -1,6 +1,6 @@
 {
   "name": "camptocamp-es_lite",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Camptocamp",
   "summary": "Deploy an ElasticSearch cluster in a simple way",
   "license": "Apache-2.0",
